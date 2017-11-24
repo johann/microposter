@@ -146,6 +146,24 @@
         }
       },
       {
+        "package": "SwiftyBeaver",
+        "repositoryURL": "https://github.com/SwiftyBeaver/SwiftyBeaver.git",
+        "state": {
+          "branch": null,
+          "revision": "36858b23737d8480a7bee7ec5407780fab3c0aea",
+          "version": "1.4.3"
+        }
+      },
+      {
+        "package": "SwiftyBeaverProvider",
+        "repositoryURL": "https://github.com/vapor-community/swiftybeaver-provider.git",
+        "state": {
+          "branch": null,
+          "revision": "80cc2d4b83f27841f249bd2cf3bc9596da085ba3",
+          "version": "2.0.0"
+        }
+      },
+      {
         "package": "TLS",
         "repositoryURL": "https://github.com/vapor/tls.git",
         "state": {
