@@ -23,13 +23,6 @@ let drop = try Droplet(config)
 try drop.setup()
 drop.log.verbose("Running your server on port 8080")
 
-drop.get("/posts") { req in
-    return "INDEX - Showing all Posts"
-}
-
-
-
-
 
 try drop.run()
 
