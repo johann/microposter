@@ -11,14 +11,6 @@ final class Routes: RouteCollection {
         builder.get { req in
             return try self.view.make("welcome")
         }
-        
-        builder.get { req in
-            print("Description",req.description)
-            print("Headers",req.headers)
-            print("Body",req.body)
-            print("Cookies",req.cookies)
-            return ""
-        }
 
         /// GET /hello/...
         builder.resource("hello", HelloController(view))
